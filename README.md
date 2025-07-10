@@ -52,8 +52,8 @@ Develop a real-time packet sniffer in Python that:
 ---
 
 ## 📁 Folder Structure
+
 network_sniffer/
-│
 ├── sniffer.py # Core packet sniffing logic
 ├── detector.py # Anomaly detection logic (port scan, flooding)
 ├── database.py # Handles SQLite operations and data logging
