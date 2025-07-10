@@ -55,14 +55,16 @@ Develop a real-time packet sniffer in Python that:
 network_sniffer/
 │
 ├── sniffer.py # Core packet sniffing logic
-├── detector.py # Anomaly detection logic
-├── database.py # SQLite operations
-├── alert.py # Logging/email alert functions
-├── visualizer.py # (Optional) GUI with Matplotlib
-├── logs/ # Stores alert logs
-├── traffic.db # SQLite traffic database
-└── README.md # This file
-
+├── detector.py # Anomaly detection logic (port scan, flooding)
+├── database.py # Handles SQLite operations and data logging
+├── alert.py # Generates logs or sends email alerts
+├── visualizer.py # (Optional) GUI for live traffic visualization using matplotlib
+│
+├── logs/ # Directory to store alert logs
+│ └── alerts.log # Sample log file (auto-generated)
+│
+├── traffic.db # SQLite database storing packet data
+└── README.md # Project overview and documentation
 
 ---
 
